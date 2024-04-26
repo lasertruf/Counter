@@ -1,6 +1,6 @@
 const CountModel = require('../models/countModel');
 
-// Controller function to add new data
+// Controller function to get count
 const getData = async (req, res) => {
     const newData = req.body;
     try {
